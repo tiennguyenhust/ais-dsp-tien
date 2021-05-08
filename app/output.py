@@ -1,5 +1,5 @@
 def make_output(X_test_id, y_pred):
-    with open('submission.csv', 'w') as writer:
+    with open('../data/submission.csv', 'w') as writer:
         n = len(y_pred)
         
         writer.write('Id,SalePrice')
