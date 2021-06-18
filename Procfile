@@ -1,0 +1,1 @@
+web: sh setup.sh && python run serving/backend/main.py && streamlit run serving/frontend/app.py
