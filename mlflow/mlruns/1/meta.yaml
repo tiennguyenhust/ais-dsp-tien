@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/Admin/Artificial_Intelligence/Data%20Science%20in%20Production/ais-dsp-tien/mlflow/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: my_experiment

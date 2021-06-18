@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Admin/Artificial_Intelligence/Data%20Science%20in%20Production/ais-dsp-tien/mlflow/mlruns/2/9caac2ca9d3a4c1d82e7f1e45597f43b/artifacts
+end_time: 1623514063651
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+name: ''
+run_id: 9caac2ca9d3a4c1d82e7f1e45597f43b
+run_uuid: 9caac2ca9d3a4c1d82e7f1e45597f43b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1623514063576
+status: 4
+tags: []
+user_id: Admin
