@@ -23,7 +23,7 @@ with st.sidebar:
     st.subheader('Instruction!!!!')
     
     st.write("[https://github.com/tiennguyenhust/ais-dsp-tien](https://github.com/tiennguyenhust/ais-dsp-tien)")
-    image = Image.open('../../data/images/img.jpg')
+    image = Image.open('data/images/img.jpg')
     st.image(image, caption='*')
     
     st.subheader('Saved trained models:')
@@ -42,7 +42,7 @@ def train_model(data_train: pd.DataFrame, model_class, **model_kwargs):
     trained_model = model_class(**model_kwargs)
     trained_model.fit(X_train, y_train)
     
-    model_name = 'model/' + "diabetes_{}.joblib".format(str(trained_model))
+    model_name = 'models/' + "diabetes_{}.joblib".format(str(trained_model))
     joblib.dump(trained_model, model_name)
     
     y_pred = trained_model.predict(X_test)
@@ -158,7 +158,7 @@ if st.button('Predict for multi patients'):
         st.warning('Please input the file CSV!')
         st.stop()
         
-    res = inference(model)
+    res = inference()
     predictions = res.json().split(" ")
     results = [[i, predictions[i]] for i in range(len(predictions))]
     st.success(f'Successful Prediction!')
