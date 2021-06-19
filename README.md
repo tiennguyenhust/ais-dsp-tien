@@ -6,3 +6,8 @@ By Van Tien NGUYEN
 2.  My Application is developed on serving folder:
   - frontend: streamlit application
   - backend: FastAPI
+3. Runing:
+  - clone project: git clone https://github.com/tiennguyenhust/ais-dsp-tien
+  - move to the root directory: cd dsp-diabetes-tien
+  - Run Backend: python serving/backend/main.py
+  - Run Frontend: streamlit run serving/frontend/app.py
