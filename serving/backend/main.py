@@ -22,9 +22,6 @@ class DiabetesInfo(BaseModel):
     s5: float
     s6: float
 
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
 
 
 @app.post('/predict')
