@@ -55,7 +55,7 @@ def train_model(data_train: pd.DataFrame, model_class, **model_kwargs):
 
 st.subheader('Training!')
 #  CSV file
-train_file = st.file_uploader('Choose a CSV file for data train')
+train_file = st.file_uploader('Choose a CSV file for data train : Full Data')
 if train_file:
     st.write('filename: ', train_file.name)
     data_train = pd.read_csv(train_file)
