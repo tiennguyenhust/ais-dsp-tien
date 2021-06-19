@@ -9,5 +9,6 @@ By Van Tien NGUYEN
 3. Runing:
   - clone project: git clone https://github.com/tiennguyenhust/ais-dsp-tien
   - move to the root directory: cd dsp-diabetes-tien
+  - create the environment using requirements-dev.txt file
   - Run Backend: python serving/backend/main.py
   - Run Frontend: streamlit run serving/frontend/app.py
